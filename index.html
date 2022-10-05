@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>Books</title>
+</head>
+<body>
+
+    <img src="./assets/images/logo.png" alt="">
+    <div class="container">
+        
+<div class="card">
+    <form class="add-book-form" id="addBookForm" >
+        <input class="input" type="text" id="title" placeholder="Title"  maxlength="100">
+        <input class="input" type="text" id="author" placeholder="Author" maxlength="100">
+        <input class="input" type="number" id="pages" placeholder="Pages" max="10000">
+        <div class="is-read">
+          <label for="is-read">Have you read it?</label>
+          <input class="checkbox" type="checkbox" id="isRead">
+        </div>
+        <button class="submit" type="button" onclick="getbook()"><h1>Add new book</h1></button>
+      </form>
+</div>
+
+
+
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body> 
+</html>
